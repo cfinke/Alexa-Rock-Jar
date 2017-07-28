@@ -1,0 +1,1 @@
+This skill saves only the name and number of rocks for each person. It stores no data on its server that is not needed for the immediate functionality of the skill.

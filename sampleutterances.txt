@@ -1,0 +1,28 @@
+AddRock give {Name} a rock
+AddRock give {Name} one rock
+AddRock add a rock to {Name} jar
+AddRock put a rock in {Name} jar
+
+AddRocks give {Name} {Number} rock
+AddRocks give {Name} {Number} rocks
+AddRocks add {Number} rocks to {Name} jar
+AddRocks put {Number} rocks in {Name} jar
+
+SubtractRock take a rock out of {Name} jar
+SubtractRock remove a rock from {Name} jar
+SubtractRock take away a rock from {Name}
+SubtractRock take away one of {Name} rock
+SubtractRock take one rock from {Name}
+
+SubtractRocks take away {Number} rocks from {Name}
+SubtractRocks take {Number} rocks out of {Name} jar
+SubtractRocks take {Number} rock from {Name}
+
+CountRocks how many rocks does {Name} have
+CountRocks how many rocks are in {Name} jar
+CountRocks how many rocks {Name} has
+
+EmptyJar empty {Name} jar
+EmptyJar take away all of {Name} rocks
+EmptyJar take all of {Name} rocks out
+EmptyJar take out all of {Name} rocks

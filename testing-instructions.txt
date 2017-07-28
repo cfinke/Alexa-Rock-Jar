@@ -1,0 +1,25 @@
+Enable the skill.
+
+There are four areas of interaction:
+
+1. Adding rocks.
+
+Say "Tell Rock Jar to give Jim a rock." Alexa should say, "Ok, I've added one rock to Jim's jar. Jim now has 1 rock."
+
+Say "Tell Rock Jar to give Jim five rocks." Alexa should say, "Ok, I've added five rocks to Jim's jar. Jim now has 6 rocks."
+
+2. Removing rocks.
+
+Say "Tell Rock Jar to take a rock out of Jim's jar." Alexa should say, "Ok, I've removed one rock from Jim's jar. Jim now has 5 rocks."
+
+3. Counting the number of rocks.
+
+Say "Ask Rock Jar how many rocks Jim has." Alexa should say, "Jim has 5 rocks."
+
+4. Empty a jar.
+
+Say "Tell Rock Jar to empty Jim's jar." Alexa should say, "Ok, I've taken all five rocks out of Jim's jar."
+
+The skill also implements the Help intent.
+
+The Help intent and the Counting intent are the only ones that generate a card in the app.

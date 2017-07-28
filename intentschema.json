@@ -1,0 +1,72 @@
+{
+  "intents":[
+    {
+      "intent": "AddRock",
+          "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+	{
+      "intent": "AddRocks",
+          "slots": [
+          {
+            "name": "Number",
+            "type": "AMAZON.NUMBER"
+          },
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+    {
+      "intent": "SubtractRock",
+          "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+    {
+      "intent": "SubtractRocks",
+          "slots": [
+          {
+            "name": "Number",
+            "type": "AMAZON.NUMBER"
+          },
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+    {
+      "intent": "CountRocks",
+          "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+    {
+      "intent": "EmptyJar",
+          "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    }
+  ]
+}
