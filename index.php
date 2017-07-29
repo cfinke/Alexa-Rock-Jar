@@ -132,18 +132,7 @@ function handleIntent( &$request, &$response, $intent ) {
 	$state = get_state( $user_id );
 
 	if ( ! $request->sesssion->new ) {
-		// These intents have no standalone processing of their own; they are just
-		// confirmations for other intents.
 		switch ( $intent ) {
-			/*
-			case 'AMAZON.YesIntent':
-				$intent = $state->last_request->intentName;
-			break;
-			case 'AMAZON.NoIntent':
-				$response->addOutput( "Ok." );
-				return;
-			break;
-			*/
 			case 'AMAZON.StopIntent':
 			case 'AMAZON.CancelIntent':
 				return;
