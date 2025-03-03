@@ -131,7 +131,7 @@ function handleIntent( &$request, &$response, $intent ) {
 	$user_id = $request->data['session']['user']['userId'];
 	$state = get_state( $user_id );
 
-	if ( ! $request->sesssion->new ) {
+	if ( ! $request->session->new ) {
 		switch ( $intent ) {
 			case 'AMAZON.StopIntent':
 			case 'AMAZON.CancelIntent':
