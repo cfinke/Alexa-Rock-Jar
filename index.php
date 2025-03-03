@@ -292,9 +292,7 @@ function handleIntent( &$request, &$response, $intent ) {
 			}
 			else {
 				save_state( $user_id, $state );
-				$response->shouldEndSession = false;
 				$response->output = $state->last_response->output;
-				$response->shouldEndSession = false;
 			}
 		break;
 	}
